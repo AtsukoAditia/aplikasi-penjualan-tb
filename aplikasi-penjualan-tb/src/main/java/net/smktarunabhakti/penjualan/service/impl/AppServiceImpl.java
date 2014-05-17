@@ -54,5 +54,10 @@ public class AppServiceImpl implements AppService {
 		// TODO Auto-generated method stub
 		return barangDao.count();
 	}
+
+    @Override
+    public Object cariSemuaBarang(java.awt.print.Pageable pageable) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
 	
 }

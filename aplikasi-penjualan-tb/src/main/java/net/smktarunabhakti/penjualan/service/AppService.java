@@ -18,4 +18,6 @@ public interface AppService {
 	
 	Long counSemuaBarang();
 
+    public Object cariSemuaBarang(java.awt.print.Pageable pageable);
+
 }
